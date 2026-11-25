@@ -2,6 +2,7 @@
 import IntroOverlay from './components/IntroOverlay.vue'
 import SiteHeader from './components/SiteHeader.vue'
 import HeroSection from './components/HeroSection.vue'
+import MarqueeBand from './components/MarqueeBand.vue'
 import CookiesSection from './components/CookiesSection.vue'
 import ScoopSection from './components/ScoopSection.vue'
 import CheesecakeSection from './components/CheesecakeSection.vue'
@@ -16,6 +17,7 @@ import SiteFooter from './components/SiteFooter.vue'
   <SiteHeader />
   <main id="esas">
     <HeroSection />
+    <MarqueeBand />
     <CookiesSection />
     <ScoopSection />
     <CheesecakeSection />

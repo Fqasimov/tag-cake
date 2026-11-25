@@ -13,7 +13,7 @@ import { cheesecakesAndTarts } from '../data/catalog'
         lead="Kuki əsası üzərində yüngül krem, şokolad örtüyü altında yumşaq çizkeyk."
       />
       <div class="duo">
-        <ProductCard v-for="(item, i) in cheesecakesAndTarts" :key="item.id" :product="item" :tall="i === 0" />
+        <ProductCard v-for="(item, i) in cheesecakesAndTarts" :key="item.id" :product="item" :tall="i === 0" :delay="i" />
       </div>
     </div>
   </section>
