@@ -1,0 +1,27 @@
+{
+  "name": "Tag Cake",
+  "colors": {
+    "burgundy":  { "hex": "#680D0D", "name": "Signature Burgundy", "use": "Logo, primary buttons, footer" },
+    "ivory":     { "hex": "#FAF5ED", "name": "Warm Ivory",         "use": "Main website background" },
+    "beige":     { "hex": "#E9D8C4", "name": "Cream Beige",        "use": "Product photography backgrounds" },
+    "chocolate": { "hex": "#382017", "name": "Chocolate Brown",    "use": "Headings and typography" },
+    "caramel":   { "hex": "#B77A38", "name": "Golden Caramel",     "use": "Decorative accents and highlights" },
+    "white":     { "hex": "#FFFCF8", "name": "Soft White",         "use": "Product cards and navigation" }
+  },
+  "products": [
+    { "name": "Banana Caramel Cookie",                "image": "banana-cookie" },
+    { "name": "Brownie Cookie",                       "image": "chocolate-cookie" },
+    { "name": "Cookie Tarts Collection",              "image": "cookie-tarts" },
+    { "name": "Oreo Cheesecake",                      "image": "oreo-cheesecake-dome" },
+    { "name": "Pistachio Kadaif Cheesecake",          "image": "pistachio-cheesecake-dome" },
+    { "name": "Raspberry Chocolate Cake",             "image": "always-18-cake" },
+    { "name": "Cherry Chocolate Cheesecake Cake",     "image": "happy-birthday-cake" },
+    { "name": "Spider-Man Caramel Chocolate Cake",    "image": "spider-web-cake" }
+  ],
+  "designReferences": [
+    "https://github.com/remotion-dev/remotion",
+    "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "https://github.com/emilkowalski/skills",
+    "https://github.com/pbakaus/impeccable"
+  ]
+}
