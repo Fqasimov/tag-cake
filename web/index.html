@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="az">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tag Cake</title>
+  <meta name="description" content="Tag Cake: içi dolu kukilər, qaşıqla yeyilən skup kukilər, çizkeyklər və xüsusi sifarişlə tortlar.">
+  <meta name="theme-color" content="#680D0D">
+  <meta property="og:title" content="Tag Cake">
+  <meta property="og:description" content="İçi dolu kukilər, skup kukilər, çizkeyklər və tortlar.">
+  <meta property="og:image" content="img/marshmallow-cookie.webp">
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <script>
+    // Decide before first paint: the opening plays once per visit, never with reduced motion.
+    (function () {
+      var d = document.documentElement, seen = false;
+      try { seen = sessionStorage.getItem('tc-intro') === '1'; } catch (e) {}
+      var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+      d.classList.add('js', seen || reduce ? 'no-intro' : 'intro-on');
+    })();
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
