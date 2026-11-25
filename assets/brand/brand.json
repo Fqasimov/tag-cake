@@ -9,9 +9,9 @@
     "white":     { "hex": "#FFFCF8", "name": "Soft White",         "use": "Product cards and navigation" }
   },
   "products": [
-    { "name": "Banana Caramel Cookie",                "image": "banana-cookie" },
+    { "name": "Banana Caramel Cookie",                "image": "banana-cookie-large" },
     { "name": "Brownie Cookie",                       "image": "chocolate-cookie" },
-    { "name": "Cookie Tarts Collection",              "image": "cookie-tarts" },
+    { "name": "Cookie Tarts Collection",              "image": "cookie-tarts-large" },
     { "name": "Oreo Cheesecake",                      "image": "oreo-cheesecake-dome" },
     { "name": "Pistachio Kadaif Cheesecake",          "image": "pistachio-cheesecake-dome" },
     { "name": "Raspberry Chocolate Cake",             "image": "always-18-cake" },
